@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
-export default function Home() {
+import React from "react";
+const page = () => {
   return (
     <div className="flex items-center justify-around space-y-2 h-screen relative">
       <div className="absolute top-0 left-0 w-96 h-full -z-10" style={{background: "linear-gradient(to right, #20B2AA, #48D1CC)"}}></div>
@@ -67,7 +67,7 @@ export default function Home() {
             >
               <FaGithub
                 size={24}
-                style={{ color: "#20B2AA" }} // Utilisation directe de la couleur
+                style={{ color: "#feb47b" }} // Utilisation directe de la couleur
                 className=" hover:text-black-500 transition-colors duration-300"
               />
             </a>
@@ -80,7 +80,7 @@ export default function Home() {
             >
               <FaLinkedin
                 size={24}
-                style={{ color: "#20B2AA" }}
+                style={{ color: "#feb47b" }}
                 className=" hover:text-black-500 transition-colors duration-300"
               />
             </a>
@@ -89,4 +89,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default page;

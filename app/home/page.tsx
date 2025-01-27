@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import React from "react";
 const page = () => {
   return (
-    <div className=" flex items-center justify-around space-y-2 h-screen relative">
+    <div className="border-b-8 border-[#3ec9c3] flex items-center justify-around space-y-2 h-screen relative">
       <div
         // className="absolute top-0 left-0 w-96 h-full -z-10"
         className="absolute top-0 left-0 md:w-96 w-full md:h-full h-72 -z-10"
@@ -11,25 +11,24 @@ const page = () => {
       ></div>
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div>
-          <div className="w-72 h-72 flex items-center justify-center">
+          <div className="md:w-72 md:h-72 w-48 h-48 flex items-center justify-center">
             <div
-              className="rounded-full flex items-center justify-center p-3"
+              className="rounded-full flex items-center justify-center p-2 md:p-3"
               style={{
                 background: "linear-gradient(to right, #20B2AA, #48D1CC)", // Dégradé extérieur
               }}
             >
               {/* Espace de séparation épais */}
-              <div className="rounded-full flex items-center justify-center p-4 bg-white">
+              <div className="rounded-full flex items-center justify-center p-5 md:p-4 bg-white">
                 {/* Bordure intérieure avec dégradé */}
                 <div
-                  className="rounded-full flex items-center justify-center"
+                  className="rounded-full flex items-center justify-center p-2 md:p-3"
                   style={{
                     background: "linear-gradient(to right, #20B2AA, #48D1CC)", // Dégradé intérieur
-                    padding: "1rem", // Épaisseur de bordure intérieure
                   }}
                 >
                   {/* Image */}
-                  <div className="rounded-full overflow-hidden w-56 h-56 bg-white">
+                  <div className="rounded-full overflow-hidden w-36 h-36 md:w-56 md:h-56 bg-white">
                     <Image
                       className="dark:invert"
                       src="/felana.jpg"

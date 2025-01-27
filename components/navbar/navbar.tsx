@@ -1,7 +1,7 @@
 "use client";
-import Link from 'next/link';
-import React, { useState } from 'react'
-import { FaBars, FaMoon, FaTimes } from 'react-icons/fa';
+import Link from "next/link";
+import React, { useState } from "react";
+import { FaBars, FaMoon, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,19 +16,25 @@ const Navbar = () => {
         {/* Hamburger and Dark Mode Icons on Mobile */}
         <div className="flex items-center space-x-4 md:hidden">
           {/* Dark Mode Icon */}
-          <FaMoon size={24} color="#20B2AA" />
+          <FaMoon size={24} color="#ffffff" />{" "}
+          {/* Set color to white on mobile */}
           {/* Hamburger Icon */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="focus:outline-none"
           >
-            {menuOpen ? <FaTimes size={24} color="#20B2AA" /> : <FaBars size={24} color="#20B2AA" />}
+            {menuOpen ? (
+              <FaTimes size={24} color="#ffffff" />
+            ) : (
+              <FaBars size={24} color="#ffffff" />
+            )}{" "}
+            {/* Set color to white on mobile */}
           </button>
         </div>
 
         {/* Navigation Links */}
         <ul
-          className={`absolute top-0 left-0 w-full h-screen bg-black text-white flex flex-col items-center justify-center space-y-8 transform ${
+          className={`absolute top-0 left-0 w-full h-screen bg-[#42ccc7] text-white flex flex-col items-center justify-center space-y-8 transform ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out md:static md:flex-row md:h-auto md:w-auto md:bg-transparent md:text-black md:translate-x-0 md:space-y-0 md:space-x-6`}
         >
@@ -86,7 +92,6 @@ const Navbar = () => {
       </nav>
     </div>
   );
-  
-}
+};
 
-export default Navbar
+export default Navbar;

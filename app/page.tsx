@@ -49,8 +49,11 @@ export default function Home() {
           <div className="flex flex-col items-center text-center md:flex-row md:space-x-8 mb-11 space-y-6 md:space-y-0">
             {/* Informations personnelles */}
             <div className="flex flex-col gap-2">
-              <h3 className="text-4xl font-semibold">
+              <h3 className="text-4xl font-semibold hidden md:block">
                 Felana NIRINA MAMPIONONA
+              </h3>
+              <h3 className="text-4xl font-semibold block md:hidden">
+                Felaniaina
               </h3>
               <h3 className="text-3xl text-gray-500 md:flex">Web Developer</h3>
             </div>
@@ -96,7 +99,7 @@ export default function Home() {
               style={{
                 background: "linear-gradient(to right, #20B2AA, #48D1CC)", // Dégradé de couleur
               }}
-              className="px-6 py-3 text-white font-semibold shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105"
+              className="px-8 py-5 md:px-6 md:py-3 text-white font-semibold shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 hover:translate-y-2"
             >
               Download CV
             </a>

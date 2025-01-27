@@ -99,7 +99,7 @@ export default function Home() {
               style={{
                 background: "linear-gradient(to right, #20B2AA, #48D1CC)", // Dégradé de couleur
               }}
-              className="px-8 py-5 md:px-6 md:py-3 text-white font-semibold shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 hover:translate-y-2"
+              className="px-16 py-5 md:px-6 md:py-3 text-xl  text-white font-semibold shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 hover:translate-y-2"
             >
               Download CV
             </a>

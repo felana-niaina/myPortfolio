@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="border-b-8  border-[#3ec9c3] flex items-center justify-around h-screen relative">
+    <div className="border-b-8 border-[#3ec9c3] flex items-center justify-around space-y-2 h-screen relative">
       <div
         // className="absolute top-0 left-0 w-96 h-full -z-10"
         className="absolute top-0 left-0 md:w-96 w-full md:h-full h-72 -z-10"

@@ -11,7 +11,7 @@ const page = () => {
       ></div>
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div>
-          <div className="md:w-72 md:h-72 w-48 h-48 flex items-center justify-center">
+          <div className="md:w-80 md:h-80 w-48 h-48 flex items-center justify-center">
             <div
               className="rounded-full flex items-center justify-center p-2 md:p-3"
               style={{
@@ -28,13 +28,13 @@ const page = () => {
                   }}
                 >
                   {/* Image */}
-                  <div className="rounded-full overflow-hidden w-36 h-36 md:w-56 md:h-56 bg-white">
+                  <div className="rounded-full overflow-hidden w-36 h-36 md:w-64 md:h-64 bg-white">
                     <Image
                       className="dark:invert"
                       src="/felana.jpg"
                       alt="My Profile Picture"
-                      width={220}
-                      height={220}
+                      width={255}
+                      height={255}
                       priority
                     />
                   </div>

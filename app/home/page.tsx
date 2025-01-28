@@ -21,7 +21,7 @@ const page = () => {
           <div className="flex flex-col items-center text-center mb-11 gap-10">
             {/* Informations personnelles */}
             <div className="flex flex-col gap-2">
-              <span>Hello, I'm</span>
+              <span>Hello, I m</span>
               <h3 className="text-4xl font-bold hidden md:block">
                 Felana Andria
               </h3>

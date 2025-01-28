@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-[90px]">
       <div className="flex flex-col items-center justify-center">
-        <span>Let's Talk</span>
+        <span>Let s Talk</span>
         <span>About Your Project</span>
       </div>
       <div>

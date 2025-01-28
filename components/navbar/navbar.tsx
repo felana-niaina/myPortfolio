@@ -16,8 +16,9 @@ const Navbar = () => {
     <div className="bg-transparent text-black fixed w-full z-50">
       <nav className="container mx-auto flex items-center justify-between md:justify-around py-4 px-6">
         {/* Logo */}
-        <div className="text-lg">
-          <span>Felana Andria</span>
+        <div className="text-lg flex flex-nowrap gap-1">
+          <span>Felana</span>
+          <span>Andria</span>
         </div>
 
         {/* Hamburger and Dark Mode Icons on Mobile */}

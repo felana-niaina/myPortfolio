@@ -16,29 +16,29 @@ const Navbar = () => {
     <div className="bg-transparent text-black fixed w-full z-50">
       <nav className="container mx-auto flex items-center justify-between md:justify-around py-4 px-6">
         {/* Logo */}
-        <div className="text-lg font-bold text-white">
-          <span>Felana</span>
+        <div className="text-lg">
+          <span>Felana Andria</span>
         </div>
 
         {/* Hamburger and Dark Mode Icons on Mobile */}
-        <div className="flex items-center space-x-4 md:hidden">
+        <div className="flex items-center justify-end gap-2 w-full px-4 md:hidden">
           {/* Dark Mode Icon */}
-          <FaMoon size={24} color="#ffffff" />
+          <FaMoon size={24}  />
           {/* Hamburger Icon */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="focus:outline-none"
           >
             {menuOpen ? (
-              <FaTimes size={24} color="#ffffff" />
+              <FaTimes size={24}  />
             ) : (
-              <FaBars size={24} color="#ffffff" />
+              <FaBars size={24}  />
             )}
           </button>
         </div>
 
         {/* Navigation Links */}
-        <div className="flex flex-row gap-3">
+        <div className="flex flex-row gap-5">
           <ul
             className={`absolute top-0 left-0 w-full h-screen bg-[#42ccc7] text-white flex flex-col items-center justify-center space-y-8 transform ${
               menuOpen ? "translate-x-0" : "-translate-x-full"
@@ -59,7 +59,7 @@ const Navbar = () => {
                 onClick={() => handleMenuClick("/home")}
                 className={`px-4 py-2 rounded-md transition-all ${
                   activeMenu === "/home"
-                    ? "text-white bg-[#20B2AA] font-bold underline decoration-2 underline-offset-4"
+                    ? "text-white bg-black font-bold decoration-2 underline-offset-4"
                     : "hover:text-gray-600"
                 }`}
               >
@@ -72,7 +72,7 @@ const Navbar = () => {
                 onClick={() => handleMenuClick("/about")}
                 className={`px-4 py-2 rounded-md transition-all ${
                   activeMenu === "/about"
-                    ? "text-white bg-[#20B2AA] font-bold underline decoration-2 underline-offset-4"
+                    ? "text-white bg-black font-bold decoration-2 underline-offset-4"
                     : "hover:text-gray-600"
                 }`}
               >
@@ -86,7 +86,7 @@ const Navbar = () => {
                 onClick={() => handleMenuClick("/project")}
                 className={`px-4 py-2 rounded-md transition-all ${
                   activeMenu === "/project"
-                    ? "text-white bg-[#20B2AA] font-bold underline decoration-2 underline-offset-4"
+                    ? "text-white bg-black font-bold decoration-2 underline-offset-4"
                     : "hover:text-gray-600"
                 }`}
               >
@@ -99,7 +99,7 @@ const Navbar = () => {
                 onClick={() => handleMenuClick("/contact")}
                 className={`px-4 py-2 rounded-md transition-all ${
                   activeMenu === "/contact"
-                    ? "text-white bg-[#20B2AA] font-bold underline decoration-2 underline-offset-4"
+                    ? "text-white bg-black font-bold decoration-2 underline-offset-4"
                     : "hover:text-gray-600"
                 }`}
               >
@@ -110,7 +110,7 @@ const Navbar = () => {
 
           {/* Dark Mode Icon for Desktop */}
           <div className="hidden md:block">
-            <FaMoon size={24} color="#20B2AA" />
+            <FaMoon size={24} color="#000" />
           </div>
         </div>
       </nav>

@@ -4,165 +4,146 @@ import Image from "next/image";
 const page = () => {
   return (
     <div className="flex flex-col items-center justify-center md:justify-around pt-[80px] space-y-2 h-screen relative">
-      <div className="flex flex-col text-center items-center sm:justify-center mt-32 md:mt-0">
-        <span className="text-2xl text-gray">My Personal</span>
-        <span className="text-2xl text-gray"> information</span>
-      </div>
-      <div className="flex flex-col pt-[65px] md:flex-row justify-center min-h-screen gap-28">
-        {/* me in photo */}
-        <div>
-        <Image
-            className="dark:invert transform duration-300 hover:scale-125"
-            src="/balise.png"
-            alt="balise"
-            title="balise"
-            width={150}
-            height={150}
-            priority
-          />
-        </div>
-        {/* <div>
-          <div className="md:w-80 md:h-80 w-48 h-48 flex items-center justify-center">
-            <div
-              className="rounded-full flex items-center justify-center p-2 md:p-3"
-              style={{
-                background: "linear-gradient(to right, #20B2AA, #48D1CC)", // Dégradé extérieur
-              }}
-            >
-              
-              <div className="rounded-full flex items-center justify-center p-5 md:p-4 bg-white">
-                
-                <div
-                  className="rounded-full flex items-center justify-center p-2 md:p-3"
-                  style={{
-                    background: "linear-gradient(to right, #20B2AA, #48D1CC)", // Dégradé intérieur
-                  }}
-                >
-                  
-                  <div className="rounded-full overflow-hidden w-36 h-36 md:w-64 md:h-64 bg-white">
-                    <Image
-                      className="dark:invert"
-                      src="/felana.jpg"
-                      alt="My Profile Picture"
-                      width={255}
-                      height={255}
-                      priority
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* text info */}
-        <div className="flex flex-col gap-3">
-          <div className="text-left">
-            <h3 className="text-xl font-bold">Felaniaina</h3>
-            <h4 className="text-lg text-gray-600">Wev Developper</h4>
-            <p className="text-sm text-gray-500 max-w-md mt-2">
+      <div className="flex flex-col pt-[45px] md:flex-row justify-center min-h-screen gap-28">
+        <div className="flex flex-col gap-5">
+          {/* text info */}
+          <div className="flex justify-center text-center">
+            <p className="text-sm text-gray-200 max-w-md mt-2">
               <span>
-                I am a passionate web developer skilled in backend and frontend,
+                I specialize in frontend and backend technologies to build
+                seamless, efficient, and innovative solutions.
               </span>
-              <span>
-                committed to creating efficient and user-friendly applications.
-                Always eager to learn,
-              </span>
-              <span> I deliver innovative and high-quality solutions.</span>
+              <span> Here's a glimpse of my expertise</span>
             </p>
           </div>
-          <div className="mt-7">
-            <a
-              href="#"
-              style={{
-                background: "linear-gradient(to right, #20B2AA, #48D1CC)", // Dégradé de couleur
-              }}
-              className="px-16 py-5 md:px-6 md:py-3 text-xl  text-white font-semibold shadow-md hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 hover:translate-y-2"
-            >
-              Contact Me
-            </a>
-          </div>
-          <div className="mt-7">
-            <span>My Skills Are</span>
-            <div className="flex flex-col gap-2 mt-2">
-              <div className="flex flex-row gap-2">
+          <div className="flex flex-col text-center gap-3">
+            <span className="text-gray-300 text-[12px]">
+              Frontend technology
+            </span>
+            <div className="flex justify-center gap-5 flex-wrap">
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg  relative transition-transform duration-300 hover:scale-110 shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
                   src="/html.png"
                   alt="html"
                   title="HTML"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                   priority
                 />
-                <Image
-                  className="dark:invert transform duration-300 hover:scale-125"
-                  src="/css.png"
-                  alt="css"
-                  title="CSS"
-                  width={35}
-                  height={35}
-                  priority
-                />
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  HTML
+                </span>
+              </div>
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg relative transition-transform duration-300 hover:scale-110 hover:shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
                   src="/js.png"
                   alt="js"
                   title="Javascript"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                   priority
                 />
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  JAVASCRIPT
+                </span>
+              </div>
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg relative transition-transform duration-300 hover:scale-110 shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
-                  src="/php.png"
-                  alt="php"
-                  title="PHP"
-                  width={35}
-                  height={35}
+                  src="/css.png"
+                  alt="css"
+                  title="CSS"
+                  width={30}
+                  height={30}
                   priority
                 />
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  CSS
+                </span>
+              </div>
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg relative transition-transform duration-300 hover:scale-110 shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
                   src="/bootstrap.png"
                   alt="bootstrap"
                   title="Bootstrap"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                   priority
                 />
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  BOOTSTRAP
+                </span>
+              </div>
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg relative transition-transform duration-300 hover:scale-110 shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
                   src="/tailwindCss.png"
                   alt="tailwindCss"
                   title="tailwindCSS"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                   priority
                 />
-
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  TAILWIND CSS
+                </span>
+              </div>
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg relative transition-transform duration-300 hover:scale-110 shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
                   src="/mui.png"
                   alt="mui"
                   title="MaterialUI"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                   priority
                 />
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  MaterialUI
+                </span>
+              </div>
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg relative transition-transform duration-300 hover:scale-110 shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
                   src="/react.png"
                   alt="react"
                   title="React"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                   priority
                 />
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  React JS
+                </span>
+              </div>
+              <div className="gap-1 md:gap-0 bg-slate-800 w-16 h-16 md:w-20 md:h-20 flex flex-col items-center justify-between p-3 rounded-lg relative transition-transform duration-300 hover:scale-110 shadow-[0px_0px_20px_5px_rgba(255,255,255,0.1)]">
                 <Image
                   className="dark:invert transform duration-300 hover:scale-125"
                   src="/next.png"
                   alt="next"
                   title="NextJS"
+                  width={30}
+                  height={30}
+                  priority
+                />
+                <span className="text-white text-[5px] md:text-[10px] font-semibold">
+                  NEXT JS
+                </span>
+              </div>
+            </div>
+          </div>
+          {/* <div className="mt-7">
+            <span>My Skills Are</span>
+            <div className="flex flex-col gap-2 mt-2">
+              <div className="flex flex-row gap-2">
+                <Image
+                  className="dark:invert transform duration-300 hover:scale-125"
+                  src="/php.png"
+                  alt="php"
+                  title="PHP"
                   width={35}
                   height={35}
                   priority
@@ -254,6 +235,14 @@ const page = () => {
               </div>
             </div>
           </div>
+          <div className="mt-7">
+            <a
+              href="#"
+              className="px-9 py-3 md:px-6 md:py-3 text-white font-semibold border border-white rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:translate-y-1 bg-[#20B2AA] hover:bg-white hover:text-black"
+            >
+              Contact Me
+            </a>
+          </div> */}
         </div>
       </div>
     </div>

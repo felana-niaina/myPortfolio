@@ -58,7 +58,7 @@ const page = () => {
             <input
               id="firstName"
               type="text"
-              className="px-28 py-1 bg-black/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+              className="px-28 py-1 bg-black/30 text-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
             />
           </div>
 
@@ -70,7 +70,7 @@ const page = () => {
             <input
               id="email"
               type="email"
-              className="px-28 bg-black/30 py-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+              className="px-28 bg-black/30 text-gray-200 py-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
             />
           </div>
 
@@ -82,7 +82,7 @@ const page = () => {
             <textarea
               id="message"
               rows={4}
-              className="p-2 bg-black/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
+              className="p-2 bg-black/30 text-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400"
             ></textarea>
           </div>
           <div className="flex justify-center items-center mt-6">

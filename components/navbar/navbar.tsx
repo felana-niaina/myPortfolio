@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* Hamburger and Dark Mode Icons on Mobile */}
         <div className="flex items-center justify-end gap-2 w-full px-4 md:hidden">
           {/* Dark Mode Icon */}
-          <FaMoon size={24}  />
+          {/* <FaMoon size={24}  /> */}
           {/* Hamburger Icon */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}

@@ -45,7 +45,7 @@ export default function Home() {
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/tonprofil"
+            href="https://www.instagram.com/felana_andriambolamanana?igsh=NndkMHY3YjRyaXpz"
             target="_blank"
             rel="noopener noreferrer"
             className="transition"
@@ -57,7 +57,7 @@ export default function Home() {
           </a>
           {/* Facebook */}
           <a
-            href="https://www.facebook.com/tonprofil"
+            href="https://www.facebook.com/share/18unDnnHit/"
             target="_blank"
             rel="noopener noreferrer"
             className="transition"

@@ -77,10 +77,10 @@ const page = () => {
                 <strong className="text-[#20B2AA]">Felana Andria</strong>
               </span>
               <h3 className="text-2xl md:text-4xl font-bold text-center md:text-left text-[#20B2AA]">
-                Web Developer .
+                Web Developer.
               </h3>
               <div className="text-center md:text-left text-white">
-                <p className="text-sm text-white align-top max-w-md mt-2 px-7 md:px-0">
+                <p className="text-[6px] md:text-sm text-white align-top max-w-md mt-2 px-7 md:px-0">
                   <span>
                     I am a passionate web developer skilled in backend and frontend,
                   </span>
@@ -93,7 +93,7 @@ const page = () => {
               </div>
             </div>
             {/* Bouton Download CV & contact info*/}
-            <div className="flex flex-col md:flex-row gap-10 md:gap-4 md:align-top w-full">
+            <div className="flex flex-row gap-10 md:gap-4 md:align-top w-full">
               <div>
                 <a
                   href="/CV_felana.pdf"

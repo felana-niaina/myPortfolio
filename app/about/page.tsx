@@ -13,7 +13,7 @@ const page = () => {
                 I specialize in frontend and backend technologies to build
                 seamless, efficient, and innovative solutions.
               </span>
-              <span> Here's a glimpse of my expertise</span>
+              <span> Here is a glimpse of my expertise</span>
             </p>
           </div>
           <div className="flex flex-col text-center gap-3">

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [activeMenu, setActiveMenu] = useState("/home");
 
   const handleMenuClick = (menu: string) => {
-    // setActiveMenu(menu);
+    setActiveMenu(menu);
     setMenuOpen(false);
   };
 

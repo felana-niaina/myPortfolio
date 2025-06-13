@@ -17,8 +17,7 @@ const Navbar = () => {
       <nav className="container mx-auto text-white flex items-center justify-between md:justify-around py-4 px-6">
         {/* Logo */}
         <div className="text-lg flex flex-nowrap gap-1">
-          <span>Felana</span>
-          <span>Andria</span>
+          <span>Felaniaina</span>
         </div>
 
         {/* Hamburger and Dark Mode Icons on Mobile */}
@@ -69,10 +68,23 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/about"
-                onClick={() => handleMenuClick("/about")}
+                href="/experiences"
+                onClick={() => handleMenuClick("/experiences")}
                 className={`px-4 py-2 rounded-md transition-all ${
-                  activeMenu === "/about"
+                  activeMenu === "/experiences"
+                    ? "text-white bg-[#20B2AA] font-bold decoration-2 underline-offset-4"
+                    : "hover:text-gray-200"
+                }`}
+              >
+                Experiences
+              </a>
+            </li>
+            <li>
+              <a
+                href="/skills"
+                onClick={() => handleMenuClick("/skills")}
+                className={`px-4 py-2 rounded-md transition-all ${
+                  activeMenu === "/skills"
                     ? "text-white bg-[#20B2AA] font-bold decoration-2 underline-offset-4"
                     : "hover:text-gray-200"
                 }`}

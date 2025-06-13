@@ -11,7 +11,7 @@ const ExperiencesCard = () => {
             <div className="relative w-1/2 pr-8 text-right">
               <div className="absolute right-[-0.5rem] top-1.5 w-4 h-4 bg-blue-500 rounded-full z-10" />
               <p className="text-sm text-gray-300">December 2024 – now</p>
-              <h3 className="font-semibold text-white text-lg">M1 à l'ITUniversity</h3>
+              <h3 className="font-semibold text-white text-lg">M1 à l&rsquo;ITUniversity</h3>
             </div>
 
             <div className="relative w-1/2 pl-8 ml-auto text-left">
@@ -27,7 +27,7 @@ const ExperiencesCard = () => {
             <div className="relative w-1/2 pr-8 text-right">
               <div className="absolute right-[-0.5rem] top-1.5 w-4 h-4 bg-blue-500 rounded-full z-10" />
               <p className="text-sm text-gray-300">2021 – </p>
-              <h3 className="font-semibold text-white text-lg">M1 à l'ITUniversity</h3>
+              <h3 className="font-semibold text-white text-lg">M1 à l&rsquo;ITUniversity</h3>
             </div>
       
             <div className="relative w-1/2 pl-8 ml-auto text-left">
